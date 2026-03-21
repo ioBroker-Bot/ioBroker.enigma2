@@ -102,17 +102,17 @@
  - msgType   = Number from 0 to 3 (0= Yes/No ; 1= Info ; 2=Message ; 3=Attention)
  - timeout   = timeout of Message in sec. Can be empty or the Number of seconds the Message should disappear after.
  
-![Bild Text](admin/enigma2_message2.png)
-### oder
-![Bild Text](admin/enigma2_message.png)
+![Picture Text](admin/enigma2_message2.png)
+### or
+![Picture Text](admin/enigma2_message.png)
 
-[> zum Blockly Import <](admin/Blockly_Import.md)
+[> Blockly Import <](admin/Blockly_Import.md)
 
 #### in JavaScript
 
 ```js
 sendTo('enigma2.0', 'send', {
-    message: 'Test Nachricht', /* Text of Message */
+    message: 'Test Messaget', /* Text of Message */
     timeout: 26,               /* timeout of Message in sec. (Can be empty or the Number of seconds the Message should disappear after.) */
     msgType: 1,                /* Number from 0 to 3 (0= Yes/No ; 1= Info ; 2=Message ; 3=Attention) */
 });
