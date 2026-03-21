@@ -7,11 +7,8 @@
 - Adapter for ioBroker to retrieve information from an enigma2 receiver and send commands
 - (Adapter only runs on one host! with a client installation there's currently still problems.)
 
-- (DE) Adapter für ioBroker um Informationen von einem enigma2 Receiver abzufragen und Befehle zu senden
-- (DE)(Adapter läuft nur auf einem Host! bei einer Client Installation gib's aktuell noch probleme.)
-
 ----
-### Funktionen
+### Functions
 - BOX_IP
 - NETWORK
 - CHANNEL_SERVICEREFERENCE
