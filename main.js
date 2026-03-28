@@ -1,4 +1,4 @@
-const http = require('http');
+const http = require('node:http');
 const xml2js = require('xml2js');
 const utils = require('@iobroker/adapter-core');
 const adapterName = require('./package.json').name.split('.').pop();
